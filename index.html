@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Complementar 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explica fácil</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+  <h1>Explica fácil</h1>
+  <p class="sub">Digite um termo ou uma pergunta e receba uma explicação simples, gerada por IA.</p>
+
+  <form id="form">
+    <input type="text" id="termoInput" placeholder="Ex: computação em nuvem" required maxlength="300">
+    <button type="submit" id="btn">Explicar</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="/script.js"></script>
 </body>
 </html>
